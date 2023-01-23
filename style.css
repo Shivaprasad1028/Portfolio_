@@ -741,13 +741,13 @@ transform: translateX(-50%);
         padding-bottom: 20px; 
         margin-bottom: 10px;
         border-radius: 6px;
-        border: 1px solid lightgray;
+        border: 2px solid crimson;
            }
            .firsttwo  .emailtype{
       width: 100%;
       padding-bottom: 20px;
       border-radius: 6px;
-      border: 1px solid lightgray;
+      border: 2px solid crimson;
            }
 
             .subject{
@@ -755,7 +755,7 @@ transform: translateX(-50%);
               width: 100%;
              padding-bottom:20px;
              border-radius: 6px;
-             border: 1px solid lightgray;
+             border: 2px solid  crimson;
             }             
                                       
    .des{
@@ -763,7 +763,7 @@ transform: translateX(-50%);
    margin-bottom: 10px;
    padding-bottom: 50px;
    border-radius: 6px;
-   border: 1px solid lightgray;
+   border: 2px solid  crimson;
 
    }
    
@@ -780,7 +780,7 @@ transform: translateX(-50%);
     cursor: pointer;
     background: transparent;
     color: black;
-    border: 1px solid crimson;
+    border: 2px solid crimson;
    }
    .rightcontact input::placeholder{
     position: absolute;
@@ -827,7 +827,7 @@ transform: translateX(-50%);
   @media  ( max-width:950px){
   
     ul{
-     
+   
     
     margin-left: 0%;
      display: inline-block;
@@ -838,16 +838,18 @@ transform: translateX(-50%);
     }
 ul li  {
   margin-top: 30px;
-}
-  
- .menu{
-  position: fixed;
-   
-    background: #111;
-    height: 100vh;
-    width: 100%;
 
-   top: 0;
+}
+
+ .menu{
+ 
+  position: fixed;
+  background: crimson;
+  height: 100vh;
+  width: 100%;
+
+ top: 0;
+   
 justify-content: center;
 
 
@@ -855,29 +857,30 @@ justify-content: center;
   }
 
   .open .menu{
-   
-    left: -100%;
+ 
+    left: -110%;
    
   }
 
   .open .cross{
     display:block ;
-    display: none;
+ display: none;
     
  }
  .open .ham{
   display: block;
-  z-index: 999;
- 
+  
+  
  
  }
-
- .ham{
   
-     display: block;
-     display: none;
-   
- 
+  .ham{
+  
+     
+  
+   display: block;
+
+
       position: absolute;
       right: 15px;
       top: 15px;
@@ -896,9 +899,7 @@ display: block;
    
   }
 
-.open.menubar .ham{
-  display: none;
-  }
+
 
 
  .menubar {
@@ -963,6 +964,7 @@ display: block;
 }
                          
 .tittlecontent h1::before{
+  display: none;
 
  display: none;
 }
@@ -1133,12 +1135,15 @@ width: 50%;
     display: flex;
   background: url("banner2.jpg") ;
   height: 100%;
-  width: 125%;
+  width: 128%;
+ 
     color: white;
    
 background-size: contain;
-background-repeat: no-repeat;
+background-repeat: no-repeat ;
+
 }
+
 
 .logo{
   padding: 15px;
@@ -1159,6 +1164,7 @@ background-repeat: no-repeat;
     
      
      }
+   
      .me h1::before{
       content: "";
       
@@ -1307,12 +1313,12 @@ background-repeat: no-repeat;
      }
   .text2{
     position: absolute;
-    top: 17%;
+    top: 17.5%;
       font-size:20px ;
   }
   .text3{
     position: absolute;
-    top: 19.5%;
+    top: 20.5%;
       font-size:17px ;
   }
   .text3 span{
@@ -1323,7 +1329,7 @@ background-repeat: no-repeat;
   .button1{
     padding: 5px 10px;
     position: absolute;
-    top: 23%;
+    top: 25%;
     background: crimson;
     margin-top: 0px;
    
@@ -1331,6 +1337,9 @@ background-repeat: no-repeat;
     font-size: 15px;
     color: white;
     
+  }
+  section .sec1{
+    margin-top: 00px;
   }
    .rightside{
    width: 100%;
@@ -1356,11 +1365,17 @@ background-repeat: no-repeat;
  }
  .leftside img {
   width: 80%;
-    margin: 10% 10%;
+    margin: 10% 23%;
   
     border-radius: 7px;
 
 
+}
+.me h1{
+  margin-left: 30%;
+}
+.servicecontent h1{
+  margin-left: 23%;
 }
 .skillside{
   display: block;
@@ -1371,7 +1386,7 @@ background-repeat: no-repeat;
 }
 
 .heading h2 {
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 40px;
   margin-left: 30px;
  
@@ -1382,16 +1397,16 @@ background-repeat: no-repeat;
 
    font-size: 13px;
    margin-left: 30px;
-   word-spacing: 8px;
+   word-spacing: 4px;
    margin-top: 10px;
-   word-spacing: 10px;
+  
    
 }
 
 
  .bar{
 width: 50%;
-margin-left: 15%;
+margin-left: 10%;
     
 }
 
@@ -1399,7 +1414,8 @@ margin-left: 15%;
   margin-top: 300px;
   background-color: black;
   width: 120%;
-  margin-left: 20px;
+  margin-left: 10px;
+margin-right: 0;
  }
  .bar  .info {
   display: flex;
@@ -1491,7 +1507,7 @@ footer{
 text-align: center;
 padding-top: 25px;
 background-color: black;
-width: 120%;
+width: 130%;
 height: 50px;
 
 color: white;
